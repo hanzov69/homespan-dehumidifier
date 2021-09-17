@@ -1,0 +1,19 @@
+# visual studio cruft
+.vscode/*
+*.code-workspace
+
+# sonar stuff
+.scannerwork/*
+
+# app stuff
+notes.txt
+
+# C extensions
+*.so
+
+# Distribution / packaging
+BuildOutput/*
+test/
+test2/
+
+

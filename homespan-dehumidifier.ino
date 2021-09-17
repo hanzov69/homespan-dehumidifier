@@ -9,7 +9,7 @@ void setup() {
   homeSpan.setControlPin(5);
   homeSpan.setStatusPin(21);
   const uint8_t dhtpin = 19; // DHT data pin
-  const uint8_t presistpin = 32; // ADC pin used for photo resistor analog values
+  const uint8_t presistpin = 32; // ADC pin used for photo resistor analog values - look at pinout to determine isolation from other in use pins
 
   homeSpan.begin(Category::Dehumidifiers,"HomeSpan Dehumidifier");
 
